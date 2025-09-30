@@ -8,6 +8,7 @@
   },
   "forwardPorts": [5173],
   "postCreateCommand": "deno --version",
+  "postStartCommand": "chmod +x ./setup-hooks.sh && ./setup-hooks.sh",
   "customizations": {
     "vscode": {
       "extensions": [
