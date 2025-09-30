@@ -1,6 +1,11 @@
 {
   "name": "Deno Development Environment",
-  "image": "denoland/deno:latest",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "features": {
+    "ghcr.io/devcontainers-extra/features/deno": {
+      "version": "latest"
+    }
+  },
   "forwardPorts": [5173],
   "postCreateCommand": "deno --version",
   "customizations": {
@@ -9,7 +14,5 @@
         "denoland.vscode-deno"
       ]
     }
-  },
-  "workspaceFolder": "/workspace",
-  "remoteUser": "deno"
+  }
 }
