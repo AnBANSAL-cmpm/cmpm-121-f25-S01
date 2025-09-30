@@ -20,9 +20,15 @@ Key workflows:
 
 ## Getting Started
 
-1. Install [Deno](https://docs.deno.com/runtime/getting_started/installation/)
-2. Run `./setup-hooks.sh` to enable pre-commit quality checks
+With Codespaces (or another environment supporting devcontainers):
 3. Run `deno task dev` to start the development server
+
+Without Codespaces (local VS Code):
+
+1. Install the [Deno](https://docs.deno.com/runtime/getting_started/installation/) runtime.
+2. Install the Deno VS Code extension (must be done only after installing Deno runtime).
+3. Run `./setup-hooks.sh` to enable pre-commit quality checks
+4. Run `deno task dev` to start the development server
 
 The setup script configures Git hooks to automatically run formatting, linting, and type checking before commits.
 
