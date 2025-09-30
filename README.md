@@ -25,3 +25,14 @@ Key workflows:
 3. Run `deno task dev` to start the development server
 
 The setup script configures Git hooks to automatically run formatting, linting, and type checking before commits.
+
+## Deployment
+
+This project is configured for automatic deployment to GitHub Pages using GitHub Actions.
+
+### Setup GitHub Pages Deployment
+
+1. Go to your repository's Settings → Pages
+2. Under "Source", select "GitHub Actions"
+3. The workflow will automatically deploy on pushes to the `main` branch
+4. Your site will be published at `https://<your-github-username>.github.io/<repository-name>/`
