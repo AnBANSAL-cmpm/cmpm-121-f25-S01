@@ -1,0 +1,15 @@
+{
+  "name": "Deno Development Environment",
+  "image": "denoland/deno:latest",
+  "forwardPorts": [5173],
+  "postCreateCommand": "deno --version",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "denoland.vscode-deno"
+      ]
+    }
+  },
+  "workspaceFolder": "/workspace",
+  "remoteUser": "deno"
+}
