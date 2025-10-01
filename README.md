@@ -1,3 +1,5 @@
+# CMPM 121 Section Activity
+
 This section activity is intended to introduce you to many of the tools and workflows that we'll use in CMPM 121, Game Development Patterns.
 
 Key tools:
@@ -15,7 +17,7 @@ Key workflows:
 - Making a small change to the project.
 - Manually testing your change locally.
 - Committing and pushing your change to your remote repository on GitHub, verifying that the deployment succeeds.
-- Removing this introductory documentation and replacing it with your own so that your project represents your voice, not that of the course staff. (Students: Don't let _this_ README.md be the only documentation in your project!)
+- Removing this introductory documentation and replacing it with your own so that your project represents your voice, not that of the course staff. (Students: Don't let _this_ README.md be the only documentation in your project! It would be fine to delete all of this text and just add a sentence about your unique contribution to the starter project.)
 - Repeating the editing-to-publishing process to build familiarity with the overall workflow.
 
 ## Getting Started
