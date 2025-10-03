@@ -8,6 +8,7 @@ console.log("🎮 CMPM 121 - Starting...");
 // Simple counter for demonstration
 // deno-lint-ignore prefer-const
 let counter: number = 0;
+counter = counter; // Prevent "prefer-const" lint error; real mutation happens on click
 
 // Create basic HTML structure
 document.body.innerHTML = `
