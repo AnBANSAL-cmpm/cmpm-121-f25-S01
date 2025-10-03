@@ -25,3 +25,4 @@ button.addEventListener("click", () => {
   counterElement.textContent = counter;
   console.log("I have these thingies:", button, counterElement, counter);
 });
+
