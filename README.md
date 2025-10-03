@@ -1,4 +1,3 @@
-What I did: 
 I had the counter increment for every click. I took out the comment. And I updated the display by updating the span id counter - I had to use Brace's help to do this.
 
 # CMPM 121 Section Activity
