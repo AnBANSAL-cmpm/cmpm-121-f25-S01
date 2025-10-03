@@ -2,7 +2,6 @@
  * Main entry point for the CMPM 121 Section Activity
  * Simple starter template - customize to your heart's content!
  */
-
 console.log("🎮 CMPM 121 - Starting...");
 
 // State container (mutable field inside a const object)
@@ -22,5 +21,5 @@ const counterElement = document.getElementById("counter")!;
 button.addEventListener("click", () => {
   state.counter++;
   counterElement.textContent = state.counter;
-  console.log("I have these thingies:", button, counterElement, counter);
+  console.log("I have these thingies:", button, counterElement, state.counter);
 });
