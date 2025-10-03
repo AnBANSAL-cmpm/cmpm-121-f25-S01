@@ -5,10 +5,8 @@
 
 console.log("🎮 CMPM 121 - Starting...");
 
-// Simple counter for demonstration
-// deno-lint-ignore prefer-const
-let counter: number = 0;
-counter += 0;
+// State container (mutable field inside a const object)
+const state = { counter: 0 };
 
 // Create basic HTML structure
 document.body.innerHTML = `
@@ -22,7 +20,7 @@ const button = document.getElementById("increment")!;
 const counterElement = document.getElementById("counter")!;
 
 button.addEventListener("click", () => {
-  counter++;
-  counterElement.textContent = counter;
+  state.counter++;
+  counterElement.textContent = state.counter;
   console.log("I have these thingies:", button, counterElement, counter);
 });
